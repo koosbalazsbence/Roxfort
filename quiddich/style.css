@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: hsl(120, 85%, 11%);
+    user-select: none;
+}
+* {
+    cursor: url(../assets/wandmodified.png), auto;
+}
+
+* {
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    scrollbar-color: green hsl(268, 65%, 5%);
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+*::-webkit-scrollbar-track {
+    background: #b9b9b9;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #570c0c;
+    border-radius: 10px;
+    border: 3px none #acacac;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 75px;
+    padding: 20px;
+    font-family: 'Griffy', system-ui;
+    color: hsl(0, 0%, 100%);
+}
+h2{
+    text-align: center;
+    font-family: 'Griffy', system-ui;
+    font-weight: bold;
+    margin: 2rem
+}
+p{
+    font-size: 22px;
+    text-align: center;
+}
+img{
+    margin-bottom: 1rem;
+}
+.container{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.1rem;
+    box-shadow: 0 0 100px 100px hsl(130, 50%, 20%);
+    background-color: hsl(130, 50%, 20%);
+}
+.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+    text-decoration: none;
+}
+.breadcrumb li+li:before {
+    padding: 1px;
+    color: white !important;
+}
+.breadcrumb li a {
+    text-decoration: none;
+}
+.breadcrumb {
+    padding-top: 15px;
+    padding-bottom: 0;
+    font-size: 20px;
+}
+.breadcrumb a{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+.breadcrumb a:hover{
+    font-weight: bold;
+}
+.active{
+    font-family: 'Times New Roman', Times, serif;
+    color: hsl(0, 0%, 70%) !important;
+}
+blockquote{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card{
+    font-family: 'Segoe UI';
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    background: #17141d;
+    box-shadow: 0 0 3rem #000;
+    margin: 0 auto;
+    color: hsl(0, 0%, 100%);
+}
+li{
+    list-style: none;
+}
+.roman{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media (max-width: 767px){
+    p{
+        text-align: center;
+    }
+}
+@media (min-width: 576px){
+    img{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+}
+@media (max-width: 765px){
+    h2{
+        margin: 3rem 0 2rem 0 !important;
+    }
+}

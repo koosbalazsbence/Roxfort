@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roxfort:spells</title>
+  <link rel="shortcut icon" href="../assets/grayhat.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Griffy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container-fluid">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Főoldal</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Varázsigék listája</li>
+        </ol>
+      </nav>
+      <div class="container">
+        <h1 class="my-4">Varázsigék listája</h1>
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Avada Kedavra">
+      <table class="table table-striped" id="myTable">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Varázsigék</th>
+              <th scope="col">Leírás</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Feraverto</td>
+              <td>Állatok átváltoztatása talpaspohárrá.</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Avada Kedavra</td>
+              <td>Halálos átok, az áldozat rögtön meghal. Főbenjáró, tiltott átok. Aki használja, büntetésből egy életre Azkabanba kerül.</td>
+            </tr>
+            <tr>
+            <th scope="row">3</th>
+            <td>Annullate</td>
+            <td>Eltünteti az előhívott varázslatok füstképét.</td>
+            </tr>
+            <tr>
+            <th scope="row">4</th>
+            <td>Allbumm (Bazilikum)</td>
+            <td>Növesztésre alkalmas bűbáj.</td>
+            </tr>
+            <tr>
+            <th scope="row">5</th>
+            <td>Alohomora</td>
+            <td>Zárnyitó bűbáj.</td>
+            </tr>
+            <tr>
+            <th scope="row">6</th>
+            <td>Arania Exhumai</td>
+            <td>Pókot eltávolító bűbáj.</td>
+            </tr>
+            <tr>
+            <th scope="row">7</th>
+            <td>Avis</td>
+            <td>Pálca hegyéből madarak röppennek elő.</td>
+            </tr>
+            <tr>
+            <th scope="row">8</th>
+            <td>Braquiam Emendo</td>
+            <td>Csonteltüntető bűbáj.</td>
+            </tr>
+            <tr>
+            <th scope="row">9</th>
+            <td>Baziteo</td>
+            <td>Növeli a pók méretét.</td>
+            </tr>
+            <tr>
+            <th scope="row">10</th>
+            <td>Capitulatus</td>
+            <td>Lefegyverző bűbáj.</td>
+            </tr>
+            <tr>
+            <th scope="row">11</th>
+            <td>Capitullatius</td>
+            <td>Tárgy meggyújtása.</td>
+            </tr>
+            <tr>
+            <th scope="row">12</th>
+            <td>Carbunculus</td>
+            <td>Hatalmas kelések megjelenése az áldozaton.</td>
+            </tr>
+            <tr>
+            <th scope="row">13</th>
+            <td>Colloportus</td>
+            <td>Zárzáró bűbáj.</td>
+            </tr>
+            <tr>
+            <th scope="row">14</th>
+            <td>Comikulissimus</td>
+            <td>Mumusok ellen használható bűbáj.</td>
+            </tr>
+            <tr>
+            <th scope="row">15</th>
+            <td>Crucio</td>
+            <td>Kínok átka.</td>
+            </tr>
+            <tr>
+            <th scope="row">16</th>
+            <td>Csíny letudva!</td>
+            <td>Tekergők Térképét eltünteti.</td>
+            </tr>
+            <tr>
+            <th scope="row">17</th>
+            <td>Densaugeo</td>
+            <td>A fogak növekedése.</td>
+            </tr>
+            <tr>
+            <th scope="row">18</th>
+            <td>Diffindo</td>
+            <td>Táskák kiszakítására alkalmas varázslat.</td>
+            </tr>
+            <tr>
+            <th scope="row">19</th>
+            <td>Dissendium</td>
+            <td>A Roxfortba vezető titkos alagút bejáratát nyitja.</td>
+            </tr>
+            <tr>
+            <th scope="row">20</th>
+            <td>Esküszöm, hogy rosszban sántikálok!</td>
+            <td>Tekergők Térképének kimutató varázsigéje.</td>
+            </tr>
+            <tr>
+            <th scope="row">21</th>
+            <td>Exlukhops</td>
+            <td>Rágó eltávolítása a kulcslyukból.</td>
+            </tr>
+            <tr>
+            <th scope="row">22</th>
+            <td>Exmemoriam</td>
+            <td>Felejtés-átka.</td>
+            </tr>
+            <tr>
+            <th scope="row">23</th>
+            <td>Expecto patronum</td>
+            <td>Patrónus megidézése a dementorok ellen.</td>
+            </tr>
+            <tr>
+            <th scope="row">24</th>
+            <td>Expelliarmus</td>
+            <td>Lefegyverző bűbáj.</td>
+            </tr>
+            <tr>
+            <th scope="row">25</th>
+            <td>Evapores</td>
+            <td>Eltüntető bűbáj.</td>
+            </tr>
+            <tr>
+            <th scope="row">26</th>
+            <td>Everti Static</td>
+            <td>Lefegyverző bűbáj.</td>
+            </tr>
+            <tr>
+            <th scope="row">27</th>
+            <td>Ferula</td>
+            <td>Sínpólya tekeredik a törött végtagra.</td>
+            </tr>
+            <tr>
+            <th scope="row">28</th>
+            <td>Fidelius</td>
+            <td>Titok elrejtése egy emberi lélekben.</td>
+            </tr>
+            <tr>
+            <th scope="row">29</th>
+            <td>Finite Incantatem</td>
+            <td>Más varázslatok megszüntetése.</td>
+            </tr>
+            <tr>
+            <th scope="row">30</th>
+            <td>Fixample</td>
+            <td>Mindent összeragaszt.</td>
+            </tr>
+            <tr>
+            <th scope="row">31</th>
+            <td>Flippendo</td>
+            <td>Robbantó átok.</td>
+            </tr>
+            <tr>
+            <th scope="row">32</th>
+            <td>Globus Igneo</td>
+            <td>Pálca hegyéből tűzgolyó repül.</td>
+            </tr>
+            <tr>
+            <th scope="row">33</th>
+            <td>Hessberöpsi tündérmanca</td>
+            <td>Tündérmanók összegyűjtése.</td>
+            </tr>
+            <tr>
+            <th scope="row">34</th>
+            <td>Imber Igneo</td>
+            <td>Tűzeső keletkezik az áldozat feje fölött.</td>
+            </tr>
+            <tr>
+            <th scope="row">35</th>
+            <td>Immobilus</td>
+            <td>Élőlények mozgásának megszüntetése.</td>
+            </tr>
+            <tr>
+            <th scope="row">36</th>
+            <td>Imperio</td>
+            <td>Megátkozott akarata ellenére cselekedtetés.</td>
+            </tr>
+            <tr>
+            <th scope="row">37</th>
+            <td>Incarcerandus</td>
+            <td>Kötöző bűbáj.</td>
+            </tr>
+            <tr>
+            <th scope="row">38</th>
+            <td>Incendio</td>
+            <td>Növény elpusztítása.</td>
+            </tr>
+            <tr>
+            <th scope="row">39</th>
+            <td>Invito</td>
+            <td>Tárgyak begyűjtése a varázsló kezébe.</td>
+            </tr>
+            <tr>
+            <th scope="row">40</th>
+            <td>Lacarnum, Inflamare</td>
+            <td>Tárgy meggyújtása.</td>
+            </tr>
+            <tr>
+            <th scope="row">41</th>
+            <td>Legilimens</td>
+            <td>Elméjének behatolása.</td>
+            </tr>
+            <tr>
+            <th scope="row">42</th>
+            <td>Leperex</td>
+            <td>Tárgy vízhatlanná tétele.</td>
+            </tr>
+            <tr>
+            <th scope="row">43</th>
+            <td>Locomotor</td>
+            <td>Tárgyak lebegtetése.</td>
+            </tr>
+            <tr>
+            <th scope="row">44</th>
+            <td>Locomotor mortis</td>
+            <td>Lábbilincselő átok.</td>
+            </tr>
+            <tr>
+            <th scope="row">45</th>
+            <td>Lumos</td>
+            <td>Fényteremtés.</td>
+            </tr>
+            <tr>
+            <th scope="row">51</th>
+            <td>"Nyúlhájtyúkszem csinn és bumm, tiszta vízből legyen rum!"</td>
+            <td>Vízből rum lesz, ha jól csinálják.</td>
+            </tr>
+            <tr>
+            <th scope="row">52</th>
+            <td>Nox</td>
+            <td>Láng kialszása.</td>
+            </tr>
+            <tr>
+            <th scope="row">53</th>
+            <td>Obstructo</td>
+            <td>Nagytestű élőlények megbénítása.</td>
+            </tr>
+            <tr>
+            <th scope="row">54</th>
+            <td>Oculus reparum</td>
+            <td>Törött szemüveg javítása.</td>
+            </tr>
+            <tr>
+            <th scope="row">55</th>
+            <td>Orchidessis</td>
+            <td>Virágeső-idézés.</td>
+            </tr>
+            <tr>
+            <th scope="row">56</th>
+            <td>Pakolj</td>
+            <td>Pakoló bűbáj.</td>
+            </tr>
+            <tr>
+            <th scope="row">57</th>
+            <td>Petrificus totalus</td>
+            <td>Sóbálvánnyá változtató átok.</td>
+            </tr>
+            <tr>
+            <th scope="row">58</th>
+            <td>Pherecitius mangicus</td>
+            <td>Fagyasztó átok.</td>
+            </tr>
+            <tr>
+            <th scope="row">59</th>
+            <td>Pirocus</td>
+            <td>Tüzes X rajzolása ajtóra.</td>
+            </tr>
+            <tr>
+            <th scope="row">60</th>
+            <td>Piroinitio</td>
+            <td>Tűz újraélesztése.</td>
+            </tr>
+            <tr>
+                <th scope="row">61</th>
+                <td>Precepticus viperatus</td>
+                <td>Vipera vetése az ellenségre.</td>
+              </tr>
+              <tr>
+                <th scope="row">62</th>
+                <td>Priori Incantatem</td>
+                <td>Előző varázslatok megmutatása.</td>
+              </tr>
+              <tr>
+                <th scope="row">63</th>
+                <td>Protego</td>
+                <td>Lefegyverző pajzsbűbáj.</td>
+              </tr>
+              <tr>
+                <th scope="row">64</th>
+                <td>Reducio</td>
+                <td>Méretcsökkentő bűbáj.</td>
+              </tr>
+              <tr>
+                <th scope="row">65</th>
+                <td>Reducto</td>
+                <td>Tárgyak elpusztítása.</td>
+              </tr>
+              <tr>
+                <th scope="row">66</th>
+                <td>Relaxo</td>
+                <td>Kákalagnak nevezett lények elleni átok.</td>
+              </tr>
+              <tr>
+                <th scope="row">67</th>
+                <td>Reparo</td>
+                <td>Törött tárgyak javítása.</td>
+              </tr>
+              <tr>
+                <th scope="row">68</th>
+                <td>Rictusempra</td>
+                <td>Csiklandozó bűbáj.</td>
+              </tr>
+              <tr>
+                <th scope="row">69</th>
+                <td>Riptusempra</td>
+                <td>Lefegyverző átok.</td>
+              </tr>
+              <tr>
+                <th scope="row">70</th>
+                <td>Serpensortia</td>
+                <td>Kígyó megidézése.</td>
+              </tr>
+              <tr>
+                <th scope="row">71</th>
+                <td>Silencio</td>
+                <td>Némító bűbáj.</td>
+              </tr>
+              <tr>
+                <th scope="row">72</th>
+                <td>Silentium</td>
+                <td>Beszéd normalizálása.</td>
+              </tr>
+              <tr>
+                <th scope="row">73</th>
+                <td>Sistem a perio</td>
+                <td>Titkos láda kinyitása.</td>
+              </tr>
+              <tr>
+                <th scope="row">74</th>
+                <td>Skorge</td>
+                <td>Szlájmtalanító varázslat.</td>
+              </tr>
+              <tr>
+                <th scope="row">75</th>
+                <td>Sonorus</td>
+                <td>Hang felerősítése.</td>
+              </tr>
+              <tr>
+                <th scope="row">76</th>
+                <td>Spongefly</td>
+                <td>Szivacsosítóbűbáj.</td>
+              </tr>
+              <tr>
+                <th scope="row">77</th>
+                <td>Stimula</td>
+                <td>Ájult személyek felébresztése.</td>
+              </tr>
+              <tr>
+                <th scope="row">78</th>
+                <td>Stupor</td>
+                <td>Élőlények elkábítása.</td>
+              </tr>
+              <tr>
+                <th scope="row">79</th>
+                <td>Suvickus</td>
+                <td>Mosás, szappanozás előidézése.</td>
+              </tr>
+              <tr>
+                <th scope="row">80</th>
+                <td>Tájolj</td>
+                <td>Észak felé fordítás.</td>
+              </tr>
+              <tr>
+                <th scope="row">81</th>
+                <td>Tarantallegra</td>
+                <td>Vad táncba kezdés.</td>
+              </tr>
+              <tr>
+                <th scope="row">82</th>
+                <td>Transportus</td>
+                <td>Tárgyak zsupszkulcsra alakítása.</td>
+              </tr>
+              <tr>
+                <th scope="row">83</th>
+                <td>Vingardium leviosa</td>
+                <td>Levitációs varázslat.</td>
+              </tr>
+              <tr>
+                <th scope="row">84</th>
+                <td>Vipera ivaneska</td>
+                <td>Kígyó eltüntetése.</td>
+              </tr>
+              <tr>
+                <th scope="row">85</th>
+                <td>Vitualicus (Vizualicus)</td>
+                <td>Láthatatlan tintával írt szöveg láthatóvá tétele.</td>
+              </tr>
+              <tr>
+                <th scope="row">86</th>
+                <td>Volate e stenderya</td>
+                <td>Tárgyak mozgatása levegőben.</td>
+              </tr>
+          </tbody>
+      </table>
+      </div>
+  </div>
+  <script>
+    function myFunction() {
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("myTable");
+      tr = table.getElementsByTagName("tr");
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
+        }       
+      }
+    }
+  </script>
+</body>
+</html>

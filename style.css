@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('assets/roxfortbackground.jpg') center/cover no-repeat;
+    overflow: hidden; 
+    user-select:none;
+}
+* {
+    cursor: url('assets/wandmodified.png'), auto;
+}
+.container {
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.navbar-collapse {
+    justify-content: center;
+}
+.navbar-nav {
+    flex-direction: column;
+    justify-content: center;
+}
+@media(max-height: 700px){
+    h1, h2, h3{
+        font-size: 1rem ;
+    }
+    ul{
+        font-size: 1rem !important;
+    }
+    li{
+        padding: 0 !important;
+    }
+}
+h1, h2, h3{
+    color: hsl(0, 0%, 100%);
+}
+h1{
+    font-family: 'Times New Roman', serif;
+    font-size: 6vmin;
+    font-weight: bold;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 2vmin;
+}
+h3{
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 4dvb;
+    font-weight: bold;
+}
+a{
+    color: hsl(0, 0%, 100%) !important;
+}
+a:hover{
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+ul{
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+li{
+    padding: 7px;
+}
