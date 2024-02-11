@@ -6,12 +6,12 @@ A weboldal linkje: [Kattints ide!](https://koosbalazsbence.github.io/Roxfort/)
 
 ## Tartalom
 
-1. [Roxfort története](#roxfort-iskola)
-2. [Tantárgyak, vizsgák](#tantárgyak)
-3. [Mágikus lények](#varázslás-művészete)
-4. [Varázsigák listája](#varászpálcák)
-5. [Varázspálcák](#kviddics)
-6. [Kviddics](#kviddics)
+1. [Roxfort története](https://koosbalazsbence.github.io/Roxfort/history/history.html)
+2. [Tantárgyak, vizsgák](https://koosbalazsbence.github.io/Roxfort/objects/objects.html)
+3. [Mágikus lények](https://koosbalazsbence.github.io/Roxfort/creatures/creatures.html)
+4. [Varázsigák listája](https://koosbalazsbence.github.io/Roxfort/spells/spells.html)
+5. [Varázspálcák](https://koosbalazsbence.github.io/Roxfort/wands/wand.html)
+6. [Kviddics](https://koosbalazsbence.github.io/Roxfort/quiddich/quidditch.html)
 
 ---
 
