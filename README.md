@@ -48,3 +48,6 @@ A Roxfort környékén számos mágikus lény él. Néhány példa:
 - **Főnix**: A főnix egy karmazsinpiros tollazattal rendelkező különleges mágikus madár. 
 
 ---
+## Források:
+- Szövegek: Internet, Harry Potter Fandom;
+- Képek, ikonok: A háttér jogtiszta, a képek forrása: internet, Harry Potter Fandom
