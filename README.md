@@ -2,7 +2,7 @@
 
 Üdvözöllek a Harry Potter, Roxfort projektben. Ez a weboldal a Harry Potter filmek és könyvekből ismert iskolát mutatja be, a híres Roxfort Boszorkány- és Varázslóiskolát reprezentálja. Itt találhatod meg az iskola tantárgyait, történetét, valamint a varázslás művészetét, a varászpálcákat, a kviddicset és a mágikus lényeket.
 
-A weboldal linkje: ()
+A weboldal linkje: [Kattints ide!](https://koosbalazsbence.github.io/Roxfort/)
 
 ## Tartalom
 
